@@ -8,7 +8,7 @@
     <title>Laravel 8 + Repository</title>
 </head>
 <body class='w-100 h-screen bg-gray-300'>
-    <div class='mx-auto max-w-lg flex'>
+    <div class='mt-8 mx-auto max-w-lg'>
         @yield('content')
     </div>
 
