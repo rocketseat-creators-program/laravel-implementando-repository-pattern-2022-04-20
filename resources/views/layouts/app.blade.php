@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>Laravel 8 + Repository</title>
 </head>
-<body>
-    @yield('content')
+<body class='w-100 h-screen bg-gray-300'>
+    <div class='mx-auto max-w-lg flex'>
+        @yield('content')
+    </div>
 
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
